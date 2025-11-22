@@ -9,115 +9,123 @@ const About = () => {
   }, []);
 
   return (
-    <div className="bg-white text-gray-900">
+    <>   <Helmet>
+      <title>About Us – Bigints</title>
+      <meta
+        name="description"
+        content="Learn more about Bigints, our mission, vision, and the services we provide across IT, marketing, and business automation."
+      />
+      <link rel="canonical" href="https://bigints.com/about" />
+    </Helmet>
+      <div className="bg-white text-gray-900">
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#0A0F2F] to-[#1F3EFF] py-20 text-center text-white" data-aos="fade-up">
-        <h1 className="text-5xl font-bold">About Bigints</h1>
-        <p className="mt-4 text-lg max-w-2xl mx-auto">
-          Bigints — Building Intelligent Solutions for Your Business Growth.
-        </p>
-      </section>
-
-      {/* Company Story */}
-      <section className="max-w-7xl mx-auto py-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        <div data-aos="fade-right">
-          <h2 className="text-4xl font-bold text-[#0A0F2F] mb-4">Who We Are</h2>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            Bigints is a multi-service business empowerment company offering 
-            <strong className="text-[#1F3EFF]"> Marketing, IT, Web, and Payroll solutions</strong> 
-            designed to accelerate business growth in the digital age.
+        {/* Hero Section */}
+        <section className="bg-gradient-to-r from-[#0A0F2F] to-[#1F3EFF] py-20 text-center text-white" data-aos="fade-up">
+          <h1 className="text-5xl font-bold">About Bigints</h1>
+          <p className="mt-4 text-lg max-w-2xl mx-auto">
+            Bigints — Building Intelligent Solutions for Your Business Growth.
           </p>
-          <p className="mt-4 text-gray-700 leading-relaxed">
-            Our mission is to transform companies with high-impact strategies, 
-            modern technologies, and intelligent operational solutions.  
-            We partner with startups, enterprises, and global brands to build 
-            scalable and future-ready systems.
-          </p>
-        </div>
+        </section>
 
-        <div className="rounded-xl overflow-hidden shadow-xl" data-aos="fade-left">
-          <img 
-            src="https://images.unsplash.com/photo-1553881651-2b1b0a52df81?auto=format&fit=crop&w=900"
-            alt="Bigints Team"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </section>
-
-      {/* Mission Vision Values */}
-      <section className="bg-gray-100 py-16 px-6">
-        <h2 className="text-center text-4xl font-bold text-[#0A0F2F] mb-12" data-aos="fade-up">
-          Our Core Principles
-        </h2>
-
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          
-          <div className="p-8 bg-white rounded-xl shadow-md text-center" data-aos="zoom-in">
-            <FaBullseye className="text-5xl text-[#1F3EFF] mx-auto mb-4" />
-            <h3 className="text-2xl font-semibold mb-3">Mission</h3>
-            <p className="text-gray-700">
-              To empower businesses with modern technology, smart marketing, 
-              and scalable operational solutions.
+        {/* Company Story */}
+        <section className="max-w-7xl mx-auto py-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div data-aos="fade-right">
+            <h2 className="text-4xl font-bold text-[#0A0F2F] mb-4">Who We Are</h2>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Bigints is a multi-service business empowerment company offering
+              <strong className="text-[#1F3EFF]"> Marketing, IT, Web, and Payroll solutions</strong>
+              designed to accelerate business growth in the digital age.
+            </p>
+            <p className="mt-4 text-gray-700 leading-relaxed">
+              Our mission is to transform companies with high-impact strategies,
+              modern technologies, and intelligent operational solutions.
+              We partner with startups, enterprises, and global brands to build
+              scalable and future-ready systems.
             </p>
           </div>
 
-          <div className="p-8 bg-white rounded-xl shadow-md text-center" data-aos="zoom-in" data-aos-delay="200">
-            <FaEye className="text-5xl text-[#1F3EFF] mx-auto mb-4" />
-            <h3 className="text-2xl font-semibold mb-3">Vision</h3>
-            <p className="text-gray-700">
-              To be a global leader in providing integrated, intelligent business solutions.
-            </p>
+          <div className="rounded-xl overflow-hidden shadow-xl" data-aos="fade-left">
+            <img
+              src="https://images.unsplash.com/photo-1553881651-2b1b0a52df81?auto=format&fit=crop&w=900"
+              alt="Bigints Team"
+              className="w-full h-full object-cover"
+            />
           </div>
+        </section>
 
-          <div className="p-8 bg-white rounded-xl shadow-md text-center" data-aos="zoom-in" data-aos-delay="400">
-            <FaHeart className="text-5xl text-[#1F3EFF] mx-auto mb-4" />
-            <h3 className="text-2xl font-semibold mb-3">Values</h3>
-            <p className="text-gray-700">
-              Innovation, Integrity, Excellence, Transparency, and Long-term Partnerships.
-            </p>
+        {/* Mission Vision Values */}
+        <section className="bg-gray-100 py-16 px-6">
+          <h2 className="text-center text-4xl font-bold text-[#0A0F2F] mb-12" data-aos="fade-up">
+            Our Core Principles
+          </h2>
+
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <div className="p-8 bg-white rounded-xl shadow-md text-center" data-aos="zoom-in">
+              <FaBullseye className="text-5xl text-[#1F3EFF] mx-auto mb-4" />
+              <h3 className="text-2xl font-semibold mb-3">Mission</h3>
+              <p className="text-gray-700">
+                To empower businesses with modern technology, smart marketing,
+                and scalable operational solutions.
+              </p>
+            </div>
+
+            <div className="p-8 bg-white rounded-xl shadow-md text-center" data-aos="zoom-in" data-aos-delay="200">
+              <FaEye className="text-5xl text-[#1F3EFF] mx-auto mb-4" />
+              <h3 className="text-2xl font-semibold mb-3">Vision</h3>
+              <p className="text-gray-700">
+                To be a global leader in providing integrated, intelligent business solutions.
+              </p>
+            </div>
+
+            <div className="p-8 bg-white rounded-xl shadow-md text-center" data-aos="zoom-in" data-aos-delay="400">
+              <FaHeart className="text-5xl text-[#1F3EFF] mx-auto mb-4" />
+              <h3 className="text-2xl font-semibold mb-3">Values</h3>
+              <p className="text-gray-700">
+                Innovation, Integrity, Excellence, Transparency, and Long-term Partnerships.
+              </p>
+            </div>
+
           </div>
+        </section>
 
-        </div>
-      </section>
+        {/* Business Transformation Approach */}
+        <section className="max-w-7xl mx-auto py-20 px-6">
+          <h2 className="text-4xl font-bold text-[#0A0F2F] text-center mb-16" data-aos="fade-up">
+            Our Business Transformation Approach
+          </h2>
 
-      {/* Business Transformation Approach */}
-      <section className="max-w-7xl mx-auto py-20 px-6">
-        <h2 className="text-4xl font-bold text-[#0A0F2F] text-center mb-16" data-aos="fade-up">
-          Our Business Transformation Approach
-        </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          
-          <div className="bg-white shadow-lg p-8 rounded-xl border-t-4 border-[#1F3EFF]" data-aos="fade-up">
-            <FaGlobeAsia className="text-4xl text-[#1F3EFF] mb-4" />
-            <h3 className="text-xl font-semibold mb-3">Digital Empowerment</h3>
-            <p className="text-gray-700">
-              We implement modern digital strategies to enhance brand visibility 
-              and customer engagement.
-            </p>
+            <div className="bg-white shadow-lg p-8 rounded-xl border-t-4 border-[#1F3EFF]" data-aos="fade-up">
+              <FaGlobeAsia className="text-4xl text-[#1F3EFF] mb-4" />
+              <h3 className="text-xl font-semibold mb-3">Digital Empowerment</h3>
+              <p className="text-gray-700">
+                We implement modern digital strategies to enhance brand visibility
+                and customer engagement.
+              </p>
+            </div>
+
+            <div className="bg-white shadow-lg p-8 rounded-xl border-t-4 border-[#1F3EFF]" data-aos="fade-up" data-aos-delay="200">
+              <FaCogs className="text-4xl text-[#1F3EFF] mb-4" />
+              <h3 className="text-xl font-semibold mb-3">Technology Integration</h3>
+              <p className="text-gray-700">
+                From Software to Cloud — we build scalable IT solutions optimized for performance.
+              </p>
+            </div>
+
+            <div className="bg-white shadow-lg p-8 rounded-xl border-t-4 border-[#1F3EFF]" data-aos="fade-up" data-aos-delay="400">
+              <FaUsers className="text-4xl text-[#1F3EFF] mb-4" />
+              <h3 className="text-xl font-semibold mb-3">Operational Excellence</h3>
+              <p className="text-gray-700">
+                Streamlining business operations through HR, Payroll, and workflow automation.
+              </p>
+            </div>
+
           </div>
+        </section>
 
-          <div className="bg-white shadow-lg p-8 rounded-xl border-t-4 border-[#1F3EFF]" data-aos="fade-up" data-aos-delay="200">
-            <FaCogs className="text-4xl text-[#1F3EFF] mb-4" />
-            <h3 className="text-xl font-semibold mb-3">Technology Integration</h3>
-            <p className="text-gray-700">
-              From Software to Cloud — we build scalable IT solutions optimized for performance.
-            </p>
-          </div>
-
-          <div className="bg-white shadow-lg p-8 rounded-xl border-t-4 border-[#1F3EFF]" data-aos="fade-up" data-aos-delay="400">
-            <FaUsers className="text-4xl text-[#1F3EFF] mb-4" />
-            <h3 className="text-xl font-semibold mb-3">Operational Excellence</h3>
-            <p className="text-gray-700">
-              Streamlining business operations through HR, Payroll, and workflow automation.
-            </p>
-          </div>
-
-        </div>
-      </section>
-
-      {/* Leadership Section */}
+        {/* Leadership Section */}
         {/*  <section className="bg-gray-50 py-20 px-6">
         <h2 className="text-4xl font-bold text-[#0A0F2F] text-center mb-12" data-aos="fade-up">
           Leadership Team
@@ -168,7 +176,9 @@ const About = () => {
         </div>
       </section> */}
 
-    </div>
+      </div>
+    </>
+
   );
 };
 

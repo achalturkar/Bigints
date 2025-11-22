@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block unnecessary system routes (React + Spring Boot)
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /register/
+Disallow: /api/
+
+# Block internal or sensitive paths
+Disallow: /server-status
+Disallow: /config
+Disallow: /private/
+
+# Sitemap Location
+Sitemap: https://bigints.com/sitemap.xml
