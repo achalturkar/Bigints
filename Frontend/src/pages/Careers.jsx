@@ -9,6 +9,8 @@ import JobCard from "../components/Careers/JobCard";
 import jobsData from "../components/Careers/jobsData";
 import JobFilters from "../components/Careers/JobFilters";
 import JobSearch from "../components/Careers/JobSearch";
+import { Helmet } from "react-helmet-async";
+
 
 
 export default function Careers() {

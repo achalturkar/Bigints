@@ -4,6 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import blogs from "../components/Blog/blogData";
 import BlogCard from "../components/Blog/BlogCard";
+import { Helmet } from "react-helmet-async";
+
 
 export default function Blog() {
   const [query, setQuery] = useState("");

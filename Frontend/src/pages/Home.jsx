@@ -4,6 +4,8 @@ import ServiceCard from "../components/ServiceCard";
 import Testimonial from "../components/Testimonial";
 import Counter from "../components/Counter";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
 
 export default function Home() {
   return (
@@ -62,10 +64,10 @@ export default function Home() {
           </div>
 
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6">
-            <Counter end={120} label="Projects" />
-            <Counter end={85} label="Clients" />
-            <Counter end={15} label="Years" />
-            <Counter end={99} label="Satisfaction %" />
+            <Counter end={12} label="Projects" />
+            <Counter end={8} label="Clients" />
+            <Counter end={1} label="Years" />
+            <Counter end={100} label="Satisfaction %" />
           </div>
 
         </section>

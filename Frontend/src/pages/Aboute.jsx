@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaBullseye, FaEye, FaHeart, FaUsers, FaGlobeAsia, FaCogs } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
+
 
 const About = () => {
   useEffect(() => {
