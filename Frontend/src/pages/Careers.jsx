@@ -85,7 +85,7 @@ export default function Careers() {
 
             <aside className="space-y-4">
               <JobFilters filters={filters} setFilters={setFilters} jobs={jobsData} />
-              <div className="p-4 bg-white rounded-lg shadow" data-aos="fade-left">
+              <div className="p-4 bg-white rounded-lg shadow" data-aos="fade-right">
                 <h4 className="font-semibold text-[#0A0F2F]">Quick Links</h4>
                 <ul className="mt-3 text-sm text-gray-600 space-y-2">
                   <li><a href="#internships" className="text-royal">Internships</a></li>

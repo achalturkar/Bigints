@@ -9,7 +9,7 @@ export default function JobFilters({ filters, setFilters, jobs }) {
   const locations = useMemo(() => ["All", "Remote", ...Array.from(new Set(jobs.map(j => j.location)))], [jobs]);
 
   return (
-    <div className="p-4 bg-white rounded-lg shadow" data-aos="fade-left">
+    <div className="p-4 bg-white rounded-lg shadow" data-aos="fade-up">
       <h4 className="font-semibold text-[#0A0F2F]">Filters</h4>
 
       <div className="mt-3 space-y-3">

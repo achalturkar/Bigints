@@ -53,7 +53,7 @@ export default function Home() {
               <p className="mt-3 text-sm text-gray-600">Integrated teams, enterprise-grade processes, transparent delivery and measurable ROI.</p>
               <Link to="/services" className="mt-4 inline-block btn-accent px-4 py-2 rounded-md">Explore Services</Link>
             </div>
-            <div className="card p-6" data-aos="fade-left">
+            <div className="card p-6" data-aos="fade-up">
               <h3 className="text-xl font-semibold">Trusted By</h3>
               <div className="mt-4 flex gap-3 items-center">
                 <img src="https://via.placeholder.com/80x40?text=ClientA" alt="client" />

@@ -37,7 +37,7 @@ const Contact = () => {
                     </div>
 
                     {/* Right: Details */}
-                    <div className="space-y-8" data-aos="fade-left">
+                    <div className="space-y-8" data-aos="fade-up">
                         <h2 className="text-3xl font-semibold text-[#1F3EFF]">Office Information</h2>
 
                         <div className="flex items-start gap-4">
