@@ -21,7 +21,7 @@ export default function Services() {
       <link rel="canonical" href="https://bigints.com/services" />
     </Helmet>
       <main className="max-w-7xl mx-auto px-4 py-12">
-        <section className="text-center mb-12" data-aos="fade-up">
+        <section className="text-center my-12 " data-aos="fade-up">
           <h1 className="text-3xl md:text-4xl font-bold">Our Services</h1>
           <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
             Comprehensive marketing, technology, web and payroll solutions designed to accelerate growth and streamline operations.

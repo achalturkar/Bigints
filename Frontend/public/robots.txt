@@ -14,4 +14,4 @@ Disallow: /config
 Disallow: /private/
 
 # Sitemap Location
-Sitemap: https://bigints.com/sitemap.xml
+Sitemap: https://www.bigints.com/sitemap.xml

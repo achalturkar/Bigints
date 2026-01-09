@@ -26,7 +26,7 @@ export default function Layout({ children }) {
     <>
       <SocialBar show={showSocial} />
       <Navbar offset={showSocial} />
-      <main className="pt-[90px]">{children}</main>
+      <main className="pt-[30px]">{children}</main>
     </>
   );
 }
