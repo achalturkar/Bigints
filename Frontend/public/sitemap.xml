@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://bigints.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://bigints.com/about</loc>
+  </url>
+
+  <url>
+    <loc>https://bigints.com/services</loc>
+  </url>
+
+  <url>
+    <loc>https://bigints.com/contact</loc>
+  </url>
+
+  <!-- Careers Pages -->
+  <url>
+    <loc>https://bigints.com/careers</loc>
+  </url>
+  <url>
+    <loc>https://bigints.com/careers/internship</loc>
+  </url>
+
+  <url>
+    <loc>https://bigints.com/careers/fulltime</loc>
+  </url>
+
+  <!-- Blog Pages -->
+  <url>
+    <loc>https://bigints.com/blog</loc>
+  </url>
+
+  <!-- Optional -->
+  <url>
+    <loc>https://bigints.com/privacy-policy</loc>
+  </url>
+
+  <url>
+    <loc>https://bigints.com/terms</loc>
+  </url>
+
+</urlset>
